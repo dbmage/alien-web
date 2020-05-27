@@ -1,0 +1,64 @@
+/* Envy Skin by Adam Brightmore Copyright (C) 2008 GPL v3
+This file is part of my crappy mpd client <http://please.mine.nu/mpc/>
+*/
+body
+  {
+  magin: 0 4% 0 4%;
+  background-color: #77FF77;
+  font-family: sans-serif;
+  color: #006611;
+  }
+input
+  {
+  height: 48px;
+  width: 48px;
+  background-color: transparent;
+  background-image-repeat: no-repeat;
+  border: none;
+  color: transparent;
+  }
+input#prev
+  {
+  background-image: url('prev.png');
+  }
+input#play
+  {
+  background-image: url('play.png');
+  }
+input#pause
+  {
+  background-image: url('pause.png');
+  }
+input#next
+  {
+  background-image: url('next.png');
+  }
+small
+  {
+  color: #11AA11;
+  }
+ol
+  {
+  -moz-border-radius: 1em;
+  -moz-outline-radius: 1em;
+  outline: 1px solid white;
+  border: 1px solid #11AA11;
+  padding-bottom: 2em;
+  }
+li.nowPlaying
+  {
+  margin-left: 2em;
+  font-size: 200%;
+  }
+li.nowPlaying span
+  {
+  font-size: 70%;
+  }
+ol.playlist li
+  {
+  background-color: ;
+  }
+#current
+  {
+  background-color: white;
+  }

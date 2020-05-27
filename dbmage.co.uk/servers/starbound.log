@@ -1,0 +1,495 @@
+Info: Star::Root using bootstrap file '/srv/starbound/linux64/sbboot.config'
+Info: Star::Root using storage directory '/srv/starbound/giraffe_storage'
+Info: Preparing Star::Root...
+Info: No modding directory found.
+Info: Loading Configuration with config file: 'starbound.config'
+Info: Loading Star::Configuration from 'Just (./../giraffe_storage/starbound.config)'
+Info: Writing Star::Configuration to './../giraffe_storage/starbound.config'
+Info: Initializing Star::Root with 2 assets sources
+Info: Done preparing Star::Root.
+Info: Loading Assets
+Info: Loading assets from: '../assets/packed.pak'
+Info: Loading assets from: '../assets/user'
+Info: Done loading Assets in 0.598 seconds
+Info: Loading NameGenerator
+Info: Done loading NameGenerator in 0.00699997 seconds
+Info: Loading ObjectDatabase
+Info: Done loading ObjectDatabase in 0.998 seconds
+Info: Loading PlantDatabase
+Info: Done loading PlantDatabase in 0.186 seconds
+Info: Loading ProjectileDatabase
+Info: Done loading ProjectileDatabase in 0.689 seconds
+Info: Loading MonsterDatabase
+Info: Done loading MonsterDatabase in 0.382 seconds
+Info: Loading NpcDatabase
+Info: Done loading NpcDatabase in 0.0909998 seconds
+Info: Loading StagehandDatabase
+Info: Done loading StagehandDatabase in 0.00100017 seconds
+Info: Loading VehicleDatabase
+Info: Done loading VehicleDatabase in 0.00399995 seconds
+Info: Loading PlayerFactory
+Info: Done loading PlayerFactory in 0.00499988 seconds
+Info: Loading EntityFactory
+Info: Loading VersioningDatabase
+Info: Done loading VersioningDatabase in 0.00100017 seconds
+Info: Done loading EntityFactory in 0.00100017 seconds
+Info: Loading ItemDatabase
+Info: Loading ImageMetadataDatabase
+Info: Done loading ImageMetadataDatabase in 0 seconds
+Info: Loading FunctionDatabase
+Info: Done loading FunctionDatabase in 0.0220001 seconds
+Info: Loading ParticleDatabase
+Info: Done loading ParticleDatabase in 0.143 seconds
+Info: Done loading ItemDatabase in 11.585 seconds
+Info: Loading MaterialDatabase
+Info: Done loading MaterialDatabase in 0.259 seconds
+Info: Loading TerrainDatabase
+Info: Done loading TerrainDatabase in 0.075 seconds
+Info: Loading BiomeDatabase
+Info: Done loading BiomeDatabase in 0.0940001 seconds
+Info: Loading LiquidsDatabase
+Info: Done loading LiquidsDatabase in 0.00199986 seconds
+Info: Loading StatusEffectDatabase
+Info: Done loading StatusEffectDatabase in 0.0280001 seconds
+Info: Loading DamageDatabase
+Info: Done loading DamageDatabase in 0.291 seconds
+Info: Loading EffectSourceDatabase
+Info: Done loading EffectSourceDatabase in 0.0210001 seconds
+Info: Loading TreasureDatabase
+Info: Done loading TreasureDatabase in 0.0449998 seconds
+Info: Loading DungeonDefinitions
+Info: Done loading DungeonDefinitions in 0.609 seconds
+Info: Loading TilesetDatabase
+Info: Done loading TilesetDatabase in 0 seconds
+Info: Loading EmoteProcessor
+Info: Done loading EmoteProcessor in 0 seconds
+Info: Loading SpeciesDatabase
+Info: Done loading SpeciesDatabase in 0.0150001 seconds
+Info: Loading QuestTemplateDatabase
+Info: Done loading QuestTemplateDatabase in 0.0339999 seconds
+Info: Loading AiDatabase
+Info: Done loading AiDatabase in 0.0209999 seconds
+Info: Loading TechDatabase
+Info: Done loading TechDatabase in 0.0209999 seconds
+Info: Loading CodexDatabase
+Info: Done loading CodexDatabase in 0.306 seconds
+Info: Loading BehaviorDatabase
+Info: Done loading BehaviorDatabase in 0.126 seconds
+Info: Loading DanceDatabase
+Info: Done loading DanceDatabase in 0.00399995 seconds
+Info: Loading SpawnTypeDatabase
+Info: Done loading SpawnTypeDatabase in 0.00999999 seconds
+Info: Done fully loading Star::Root
+Info: Server Version 'Beta v. Glad Giraffe - Update 3' Revision: 30555b17a491c2a97ab0afbff3b848a1fd937dbd Protocol: 711
+Info: Scanning for router for portforwarding
+Info: Done scanning for router for portforwarding
+Info: UniverseServer: Acquiring universe lock file
+Info: UniverseServer: Loading settings
+Info: UniverseServer: No default world set; using randomized starter worlds
+Info: Scanning for router for portforwarding
+Info: Done scanning for router for portforwarding
+Info: Scanning for router for portforwarding
+Info: Done scanning for router for portforwarding
+Info: UniverseServer: Starting UniverseServer with UUID: b49b4189c18af7f34f0f4986b9948b2f
+Info: UniverseServer: Connection received from: 192.168.0.41:62497
+Info: UniverseServer: Sending Handshake Challenge
+Info: UniverseServer: Logged in account ''joe'' as player 'Joe' from address 192.168.0.41
+Info: UniverseServer: Reviving player at ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Client 'Joe' <1> (192.168.0.41) connected
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:3
+Info: UniverseServer: Creating celestial world 213789320:65956197:14740810:12 
+Info: Placing dungeon ancientgateway
+Info: Generating dungeon ancientgateway (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:12 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:12
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:12
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:monolith:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:monolith:-:-'
+Info: Placing dungeon monolith
+Info: Generating dungeon monolith (NOT FORCED)
+Info: Placing dungeon at (0, 1000)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:12 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:12
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:12
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: UniverseServer: Stopping world InstanceWorld:monolith:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:monolith:-:-
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:12 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:12
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:3
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Warn: Failed to place dungeon object: box1 direction: 0 position: (1059, 765)
+Info: UniverseServer: Expiring temporary world InstanceWorld:monolith:-:-
+Warn: Failed to place dungeon object: box1 direction: 0 position: (497, 697)
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:3
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Warn: Failed to place dungeon object: box1 direction: 0 position: (1595, 666)
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Warn: Failed to place dungeon object: box1 direction: 0 position: (1864, 474)
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:3
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Client 'Joe' <1> (192.168.0.41) disconnected
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Info: UniverseServer: Connection received from: 192.168.0.41:52196
+Info: UniverseServer: Sending Handshake Challenge
+Info: UniverseServer: Logged in account ''joe'' as player 'Joe' from address 192.168.0.41
+Info: UniverseServer: Reviving player at ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Client 'Joe' <2> (192.168.0.41) connected
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:3
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:3
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating celestial world 213789320:65956197:14740810:11 
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:11 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:11
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:11
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:11 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:11
+Info: UniverseServer: Creating celestial world 213789320:65956197:14740810:9:6 
+Info: Placing dungeon glitchsewer
+Info: Generating dungeon glitchsewer (NOT FORCED)
+Info: Placing dungeon at (1183, 1075)
+Warn: Failed to place dungeon object: wellcover direction: 1 position: (54, 1084)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:6 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:6
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:9:6
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:6 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:6
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:9:6
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:6 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:6
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:9:6
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Warn: Failed to place dungeon object: wellcover direction: 1 position: (828, 1085)
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:6 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:6
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:9:6
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:6 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:6
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating celestial world 213789320:65956197:14740810:9:3 
+Info: Placing dungeon naturalcave
+Info: Generating dungeon naturalcave (NOT FORCED)
+Info: Placing dungeon at (1427, 875)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:3
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:9:3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Warn: Failed to place dungeon object: box1 direction: 0 position: (2546, 479)
+Warn: Failed to place dungeon object: box1 direction: 0 position: (2545, 481)
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:9:3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:9:3
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating celestial world 213789320:65956197:14740810:2 
+Info: Placing dungeon floranvillagetower
+Info: Generating dungeon floranvillagetower (NOT FORCED)
+Info: Placing dungeon at (336, 1700)
+Warn: Failed to place dungeon object: floranscreen2 direction: 0 position: (328, 1716)
+Warn: Failed to place dungeon object: floranpainting5 direction: 0 position: (384, 1738)
+Warn: Failed to place dungeon object: floranpainting1 direction: 0 position: (384, 1747)
+Warn: Failed to place dungeon object: floranbonestool direction: 0 position: (484, 1845)
+Info: Placing dungeon avianvillage
+Info: Generating dungeon avianvillage (NOT FORCED)
+Info: Placing dungeon at (2270, 1700)
+Warn: Failed to place dungeon object: woodsupport direction: 0 position: (2448, 1705)
+Info: Placing dungeon avianvillage
+Info: Generating dungeon avianvillage (NOT FORCED)
+Info: Placing dungeon at (3868, 1700)
+Warn: Failed to place dungeon object: woodsupport direction: 0 position: (4046, 1705)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: Chat: <Joe> yes
+Info: Chat: <Joe> hello
+Info: Chat: <Joe> yes
+Info: Chat: <Joe> /say yes
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Warn: Failed to place dungeon object: woodenlamp3 direction: 1 position: (2991, 1712)
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2
+Info: UniverseServer: Creating celestial world 213789320:65956197:14740810:2:1 
+Info: Placing dungeon apextowerblock
+Info: Generating dungeon apextowerblock (NOT FORCED)
+Info: Placing dungeon at (2177, 875)
+Warn: Failed to place dungeon object: apexpainting3 direction: 0 position: (1947, 896)
+Warn: Failed to place dungeon object: apexpainting5 direction: 0 position: (2012, 898)
+Warn: Failed to place dungeon object: apexpainting2 direction: 0 position: (2024, 898)
+Warn: Failed to place dungeon object: apexpainting2 direction: 0 position: (2056, 898)
+Warn: Failed to place dungeon object: apexpainting5 direction: 0 position: (2306, 898)
+Warn: Failed to place dungeon object: apexpainting2 direction: 0 position: (2318, 898)
+Warn: Failed to place dungeon object: apexpainting2 direction: 0 position: (2350, 898)
+Warn: Failed to place dungeon object: apexceilingtv direction: 1 position: (2242, 919)
+Warn: Failed to place dungeon object: apexobeysign direction: 0 position: (2247, 924)
+Warn: Failed to place dungeon object: apexpainting4 direction: 0 position: (2221, 932)
+Warn: Failed to place dungeon object: apexpainting4 direction: 0 position: (2219, 936)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:1 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:1
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:1
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Warn: Failed to place dungeon object: tallgrass3 direction: 1 position: (1583, 870)
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:1 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:1
+Info: UniverseServer: Creating temporary world file for world InstanceWorld:outpost:-:-
+Info: UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-'
+Info: Placing dungeon outpost
+Info: Generating dungeon outpost (NOT FORCED)
+Info: Placing dungeon at (0, 500)
+Info: Protected dungeonIds for world set to (0)
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world InstanceWorld:outpost:-:- due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world InstanceWorld:outpost:-:-
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:1
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:1 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:1
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2:1
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2:1 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2:1
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2
+Info: UniverseServer: Loading celestial world 213789320:65956197:14740810:2
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+Info: UniverseServer: Stopping world ClientShipWorld:c95d13247e42753b34e045bc89d096f3 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Loading client ship world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Stopping world CelestialWorld:213789320:65956197:14740810:2 due to inactivity
+Info: UniverseServer: World thread has stopped due to inactivity, removing world CelestialWorld:213789320:65956197:14740810:2
+Info: UniverseServer: Client 'Joe' <2> (192.168.0.41) disconnected
+Info: UniverseServer: World thread has stopped due to inactivity, removing world ClientShipWorld:c95d13247e42753b34e045bc89d096f3
+Info: UniverseServer: Connection received from: 192.168.0.2:53165
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53359
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53365
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53371
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53380
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53396
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53402
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53417
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53429
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:59453
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:60289
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:37575
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:59767
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:36768
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:48154
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:50383
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:57323
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:57370
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:35603
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:37791
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:42406
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:43790
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:46757
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:49176
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:49800
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:53041
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:38138
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:38748
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:41017
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:47228
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:47502
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:59400
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:60120
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:43402
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:44505
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:59128
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:59821
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:40754
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:45103
+Warn: UniverseServer: client connection aborted
+Info: UniverseServer: Connection received from: 192.168.0.2:46744
+Warn: UniverseServer: client connection aborted

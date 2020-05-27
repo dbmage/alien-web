@@ -1,0 +1,25 @@
+<?php
+$setup = array(
+    "perrylight" => "sakura",
+    "perryfan" => "sakura",
+    "dalelight" => "sakura",
+    "dalefan" => "sakura",
+    "shaunlight" => "naruto",
+    "shaunfan" => "naruto",
+    "livinglight" => "sakura",
+    "livingfan" => "sakura",
+    "bara" => "sakura",
+    "barb" => "sakura",
+    "barm" => "sakura",
+    "kitchenlight" => "sakura",
+    "kitchenled" => "sakura",
+    "heat" => "sasuke",
+    "joelight" => "sasuke",
+    "joefan" => "sasuke",
+    "joeamp" => "sasuke",
+    "joespkra" => "sasuke",
+    "joespkrb" => "sasuke",
+    "joebed" => "sasuke",
+    "joepc" => "sasuke",
+);
+?>

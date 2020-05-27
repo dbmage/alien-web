@@ -1,0 +1,8 @@
+<?php
+$thing = $_GET['a'];
+
+$url = "http://192.168.0.102:5000/flip/perry/" . $thing;
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_URL, $url);
+$action = curl_exec($curl);
+?>

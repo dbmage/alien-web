@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Calendar API Quickstart</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <p>Google Calendar API Quickstart</p>
+
+    <!--Add buttons to initiate auth sequence and sign out-->
+<!--   <button id="authorize_button" style="display: none;">Authorize</button>
+    <button id="signout_button" style="display: none;">Sign Out</button>-->
+
+    <pre id="content" style="white-space: pre-wrap;"></pre>
+
+    <script type="text/javascript">
+        // Client ID and API key from the Developer Console
+        var CLIENT_ID = '995836203780-rom9kt8l9rpa8hf1cc564945e00renga.apps.googleusercontent.com';
+        var API_KEY = 'AIzaSyATkseftbvHPPhADXctTCNSbcQvQnBpG34';
+
+        // Array of API discovery doc URLs for APIs used by the quickstart
+        var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
+
+        // Authorization scopes required by the API; multiple scopes can be
+        // included, separated by spaces.
+        var SCOPES = "https://www.googleapis.com/auth/calendar";
+        
+        function handleClientLoad() {
+  gapi.client.setApiKey(API_KEY);
+  window.setTimeout(checkAuth,1);
+  checkAuth();
+}
+
+function checkAuth() {
+  gapi.auth.authorize({client_id: CLIENT_ID, scope: SCOPES, immediate: true},
+      handleAuthResult);
+}
+
+function handleAuthResult(authResult) {
+    makeApiCall();
+}
+
+function handleAuthClick(event) {
+  gapi.auth.authorize(
+      {client_id: CLIENT_ID, scope: SCOPES, immediate: false},
+      handleAuthResult);
+  return false;
+}
+function makeApiCall() {
+  gapi.client.load('calendar', 'v3', function() {
+    var request = gapi.client.calendar.calendarList.list();
+          
+    request.execute(function(resp) {
+      console.log(resp);
+      for (var i = 0; i < resp.items.length; i++) {
+        var li = document.createElement('li');
+        li.appendChild(document.createTextNode(resp.items[i].summary));
+        document.getElementById('events').appendChild(li);
+      }
+    });
+  });
+}
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+  </body>
+</html>

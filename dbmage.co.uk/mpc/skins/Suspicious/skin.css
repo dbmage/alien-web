@@ -1,0 +1,81 @@
+/* Suspicious Skin by Adam Brightmore Copyright (C) 2008 GPL v3
+This file is part of my crappy mpd client <http://please.mine.nu/mpc/>
+*/
+body
+  {
+  magin: 0 4% 0 4%;
+  background-color: black;
+  font-family: sans-serif;
+  color: #cccccc;
+  }
+ol.nowPlaying input
+  {
+  background-color: black;
+  background-image-repeat: no-repeat;
+  border: none;
+  color: white;
+  }
+/*
+input#prev
+  {
+  background-image: url('prev.png');
+  }
+input#play
+  {
+  background-image: url('play.png');
+  }
+input#pause
+  {
+  background-image: url('pause.png');
+  }
+input#next
+  {
+  background-image: url('next.png');
+  }
+*/
+small
+  {
+  color: #666666;
+  }
+ol
+  {
+  padding-bottom: 2em;
+  list-style-type: ;
+  }
+ol.nowPlaying
+  {
+  font-size: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  background-image: url('bg.png');
+  }
+ol.nowPlaying h2
+  {
+  font-size: 150%;
+  }
+ol.nowPlaying li span
+  {
+  font-size: 150%;
+  }
+ol.playlist li a, ol.playlist li a:visited
+  {
+  color: #cccccc;
+  }
+ol.playlist li a:hover
+  {
+  color: white;
+  }
+ol.playlist li#current
+  {
+  background-color: white;
+  }
+ol.playlist li#current a, ol.playlist li#current a:visited
+  {
+  color: black;
+  }
+ol.playlist li#current a:hover
+  {
+  color: black;
+  }

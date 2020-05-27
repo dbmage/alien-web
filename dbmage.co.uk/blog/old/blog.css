@@ -1,0 +1,61 @@
+body
+	{
+	background-image:url("../img/bmclean.png");
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	color: blue;
+	}
+
+
+ul
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+	left:0;
+	top: 80px;
+	font-size:20px;
+	}
+
+d
+	{
+	color: red;
+	font-size: 20px;
+	}
+
+.blog
+	{
+	Position: relative;
+	width:80%;
+	left:10%;
+	top: 80px;
+	background-color: #a9a9a9;
+	}
+
+img
+	{
+	position: absolute;
+	right:0;
+	top:0;
+	}
+
+a:hover
+	{
+	color:cyan;
+        direction:rtl;
+        unicode-bidi:bidi-override;
+	}
+
+a:visited
+	{
+	text-decoration: none;
+	}
+
+a
+	{
+	text-decoration: none;
+	color: blue;
+	}

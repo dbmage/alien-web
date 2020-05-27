@@ -1,0 +1,354 @@
+body
+{
+  color: #000000;
+  background: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+
+ul.nav
+{
+  position: relative;
+  top: 100px;
+  display: block;
+  width: 270px;
+  height: 100px;
+  font-size: 50px;
+}
+
+span.anav
+{
+  position: relative;
+  top: 5%;
+  display: block;
+  width: 420px;
+  font-size: 40px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #A0A0A0;
+}
+a:visited
+{
+  color: #A0A0A0;
+}
+
+a:hover
+{
+  color: #0A0A0A;
+  text-shadow:0 0 8px #0ff, 0px 0px 25px #00f, 0 0 50px #fff;
+}
+
+
+img.bg
+{
+  min-height: 100px;
+  min-width: 100px;
+  width: auto;
+  width: 80%;
+  position: fixed;
+  top: 10%;
+  left: 18%;
+  z-index: -1;
+}
+
+img.abg
+{
+  min-height: 30%;
+  min-width: 100px;
+  width: 45%;
+  height: auto;
+  position: fixed;
+  top: 5%;
+  left: 25%;
+  z-index: -1;
+}
+
+.logout
+{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.sub
+{
+  list-style-type: none; 
+  float:left;
+  display: none;
+  text-shadow:0 0 8px #fa0, 0px 0px 15px #f00, 0 0 25px #f00;
+  
+}
+
+.sub li
+{
+  display: inline; 
+  clear: none !important;
+}
+
+li a:hover+.sub, .sub:hover
+{
+  display: block;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+} 
+
+p.mw3h
+{
+  position: fixed;
+  bottom: 5%;
+  left: 3%;
+}
+
+p.mw3c
+{
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+}
+
+span.mnav
+{
+  position: relative;
+  top: 10%;
+}
+
+img.mbg
+{
+  min-height: 10px;
+  min-width: 10px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  right: 0%;
+  bottom: 15%;
+  z-index: -1;
+}
+
+li a:hover+.msub, .msub:hover
+{
+  display: block;
+  position: absolute;
+  top: 170px;
+  left: 230px;
+}
+
+.msub
+{
+  list-style-type: none;
+  float: right;
+  display: none;
+}
+
+.msub li
+{
+  display: inline;
+  clear: none !important;
+}
+
+a.mnav
+{
+  display: block;
+  width: 480px;
+  height: 80px;
+  font-size: 60px;
+}
+
+.hel
+{
+  position: fixed;
+  right:0px;
+}
+
+.dad
+{
+  color: white;
+  width: 600px;
+}
+
+p.g
+{
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  font-size: 18px;
+}
+
+
+.dbButton 
+{
+box-shadow : 0 1px 3px 0 #91b8b3 inset;
+background : linear-gradient(to bottom, #8c8c8c 5%, #1e1f1f 100%);
+background-color : #8c8c8c;
+border-radius : 5px;
+border : #566963 solid 1px;
+display : inline-block;
+cursor : pointer;
+color : #A0A0A0;
+font-family : arial;
+font-size : 35px;
+font-weight : bold;
+padding : 11px 23px;
+text-decoration : none;
+text-shadow : 0 -1px 0 #2b665e;
+width : 300px;
+height : 70px;
+}
+
+.dbButton:hover 
+{
+background : linear-gradient(to bottom, #1e1f1f 5%, #8c8c8c 100%);
+background-color : #1e1f1f;
+text-shadow : 0 0 8px #0ff, 0 0 25px #00f, 0 0 50px #fff;
+color : #000;
+}
+
+.dbButton:active 
+{
+position : relative;
+top : 1px;
+}
+
+.reButton 
+{
+box-shadow : 0 1px 0 0 #fff6af;
+background : linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+background-color : #ffec64;
+border-radius : 6px;
+border : #ffaa22 solid 1px;
+display : inline-block;
+cursor : pointer;
+color : #333333;
+font-family : arial;
+font-size : 50px;
+font-weight : bold;
+padding : 6px 24px;
+text-decoration : none;
+text-shadow : 0 1px 0 #ffee66;
+width : 35%;
+height : 15%;
+}
+
+.reButton:hover 
+{
+background : linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+background-color : #ffab23;
+text-shadow : 0 0 8px #0F0, 0 0 25px #006400, 0 0 50px #000;
+color : #FFF;
+}
+
+.reButton:active 
+{
+position : relative;
+top : 1px;
+}
+
+.bg
+{
+background-color: #fff;
+color: #0f0;
+}
+
+a.dnav
+{
+  text-decoration: none;
+  color: #00A4DA;
+}
+a.dnav:visited
+{
+  color: #00A4DA;
+}
+
+a.dnav:hover
+{
+  color: #0A0A0A;
+  text-shadow:0 0 8px #0ff, 0px 0px 25px #00f, 0 0 50px #fff;
+}
+
+.dsub
+{
+  list-style-type: none;
+  float:left;
+  display: none;  
+  width: 340px;
+}
+
+.dsub li
+{
+  display: inline;
+  clear: none !important;
+}
+
+li a:hover+.dsub, .dsub:hover
+{
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  background-color: black;
+}
+
+.prev
+{
+display: none;
+border: 1px;
+position: absolute;
+left: 400px;
+top: -60px;
+width: 600px;
+height: 420px;
+}
+
+a:hover+.prev, .prev:hover
+{
+display: block;
+}
+
+a.med
+{
+display: block;
+width: 300px;
+}
+
+frame
+{
+border-style: none;
+}
+
+.login
+{
+position: fixed;
+right: 10px;
+top: 10px;
+width: 210px;
+height:120px;
+}
+
+.user
+{
+height: 98%;
+width: 98%;
+}
+
+.userbox
+{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+h2
+{
+color: white;
+}

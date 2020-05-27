@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /media/*
+Disallow: /Lowes*
+Disallow: /software
+Disallow: /admin
+Disallow: /jemma
+Disallow: /sops
+Disallow: /img
+Disallow: /apps
+

@@ -1,0 +1,87 @@
+body
+{
+background-color: black;
+color: blue;
+}
+
+
+#body.home
+#{
+#background-image: url('img/bmbg.PNG');
+#background-color: black;
+#color: blue;
+#background-repeat: no-repeat;
+#background-position: center;
+#}
+
+
+ul
+{
+list-style-type: none;
+}
+
+li
+{
+float: left;
+}
+
+a.nav
+{
+display: inline;
+display: block;
+width: 220px;
+color: blue;
+font-size: 350%;
+}
+
+a.snav
+{
+color: blue;
+font-size: 30px;
+position: relative;
+left: -60%;
+display: inline;
+display: block;
+height: 140px
+}
+
+a
+{
+color: blue;
+text-decoration: none;
+
+}
+
+h2
+{
+color: blue;
+}
+
+img.bg
+{
+  min-height: 100%;
+  min-width: 100px;
+	
+  width: auto;
+  height: 100%;
+	
+  position: fixed;
+  top: 0;
+  left: 1%;
+}
+
+
+
+p.w3h
+{
+position: fixed;
+bottom: 5%;
+left: 3%;
+}
+
+p.w3c
+{
+position: fixed;
+bottom: 5%;
+right: 3%;
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+
+spawn ssh root@192.168.0.40
+sleep 2
+send "yst94*/r"
+expect "#"
+send "mpc update/r"
+expect "#"
+send "logout/r"

@@ -1,0 +1,57 @@
+body
+{
+background-color: black;
+color: blue;
+width: auto;
+}
+
+h1
+{
+text-align: center;
+}
+
+h2
+{
+text-align: center;
+}
+
+.dir
+{
+border-top-style: dotted;
+border-left-style: dotted;
+border-right-style: dotted;
+border-bottom-style: none;
+border-color: #009;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+}
+
+.input
+{
+border: 3px ridge #009;
+outline: 3px ridge #900;
+width: 450px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+input
+{
+margin-left: auto;
+margin-right: auto;
+font-size: 18px;
+}
+
+pre
+{
+font-size: 18px;
+}
+
+iframe
+{
+height: 400px;
+width: 100%;
+}

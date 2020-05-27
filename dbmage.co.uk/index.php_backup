@@ -1,0 +1,65 @@
+<?php
+include("template_top.php");
+if (session_status() == PHP_SESSION_NONE) {
+	session_start();
+};
+if ( !isset( $_COOKIE['verify'] ) ) {;
+	$user = ".user { display: none; }";
+	$login = "";
+        $logout = "";
+} else {
+//	$login = ".login { visibilty: hidden; }";
+	$login = ".login { display: none; }";
+	$user = "";
+        $logout = '<a class="logout" href="login.php?logout=1"><button>Logout</button></a>';
+};
+$now = date("d-m-y H:i:s");
+if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+	$forip = sprintf("%-17s", $_SERVER['HTTP_X_FORWARDED_FOR']);
+	$remip = sprintf("%-17s", $_SERVER['REMOTE_ADDR']);
+	$logline = "$now - $remip ($forip)\n";
+} else {
+	$remip = sprintf("%-17s", $_SERVER['REMOTE_ADDR']);
+	$logline = "$now - $remip\n";
+};
+$logfile = fopen("/var/log/website.log", "a");
+fwrite($logfile, $logline);
+fclose($logfile);
+?>
+<style type="text/css">
+<?php echo $login; ?>
+<?php echo $user; ?>
+
+</style>
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "/mob/";
+}
+//-->
+</script>
+<title>Dbmage's Underworld</title>
+<link rel="stylesheet" type="text/css" href="dbmage.css">
+</head>
+<body>
+<div><object type="text/html" class="login" data="login.php"></object></div>
+<?php echo "$logout\n"; ?>
+<ul class="nav">
+<li><a class="user" href="user">User Area</a></li>
+<li><a href="gallery">Gallery</a></li>
+<li><a href="software">Games</a></li>
+<li><a class="med">Media</a>
+<ul class="sub">
+<li><a href="/music">Music</a></li>
+<li><a href="/video">Video</a></li>
+</ul>
+</li>
+<li><a href="servers">Servers</a></li>
+<li><a href="ytdl">Youtube DL</a></li>
+<!--<li><a href="ch/">Heating</a></li>-->
+<li><a href="apps/HouseControl.apk">Control app</a></li>
+<li><a href="mon/">Monitoring</a></li>
+</ul>
+<p class="g"><a href="game">Music Game</a></p>
+<img class="bg" src="img/bmbg.PNG" alt="My DBMage background image">
+<?php include("template_bottom.php"); ?>
