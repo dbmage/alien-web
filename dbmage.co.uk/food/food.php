@@ -1,7 +1,7 @@
 <?php
 
 $zomatokey = 'e697769205c156d9b1448920001a160d';
-$googlekey = 'AIzaSyATkseftbvHPPhADXctTCNSbcQvQnBpG34';
+
 $city_id = 61;
 //$location = json_decode( shell_exec(' curl -X GET "https://www.googleapis.com/geolocation/v1/geolocate?key=$googlekey"')
 $result = json_decode( shell_exec('curl -X GET --header "Accept: application/json" --header "user-key: ' . $zomatokey . '" "https://developers.zomato.com/api/v2.1/search?lat=51.5092375&lon=-0.0599393&radius=1000"') );
